@@ -1,6 +1,6 @@
 package ru.smolianinov.tm;
 
-import java.util.Arrays;
+import static ru.smolianinov.tm.constant.TerminalConst.*;
 
 public class Main {
 
@@ -13,9 +13,18 @@ public class Main {
         if (args == null) return;
         if (args.length < 1) return;
         final String param = args[0];
-        if ("version".equals(param)) displayVersion();
-        if ("about".equals(param)) displayAbout();
-        if ("help".equals(param)) displayHelp();
+        switch (param) {
+            case VERSION: displayVersion();
+            case ABOUT: displayAbout();
+            case HELP: displayHelp();
+            default: displayError();
+        }
+
+    }
+
+    private static  void displayError() {
+        System.out.println("Error! Unknown program argument...");
+        System.exit(-1);
     }
 
     private static  void displayWelcome() {
@@ -23,21 +32,21 @@ public class Main {
     }
 
     private static  void displayHelp() {
-            System.out.println("version - Display application version.");
-            System.out.println("about - Display developer info.");
-            System.out.println("help - Display list of commands.");
-            System.exit( 0);
+        System.out.println("version - Display application version.");
+        System.out.println("about - Display developer info.");
+        System.out.println("help - Display list of commands.");
+        System.exit( 0);
     }
 
     private static  void displayVersion() {
-            System.out.println("1.0.0");
-            System.exit( 0);
+        System.out.println("1.0.0");
+        System.exit( 0);
     }
 
     private static  void displayAbout() {
-            System.out.println("Sergei Smolianinov");
-            System.out.println("sergei@gmail.com");
-            System.exit( 0);
+        System.out.println("Sergei Smolianinov");
+        System.out.println("sergei@gmail.com");
+        System.exit( 0);
     }
 
 }
