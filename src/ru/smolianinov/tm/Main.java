@@ -2,6 +2,10 @@ package ru.smolianinov.tm;
 
 import static ru.smolianinov.tm.constant.TerminalConst.*;
 
+/*
+ * Тестовое приложение
+ */
+
 public class Main {
 
     public static void main(final String[] args) {
