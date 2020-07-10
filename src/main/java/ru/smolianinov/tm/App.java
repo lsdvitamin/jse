@@ -6,7 +6,7 @@ import static ru.smolianinov.tm.constant.TerminalConst.*;
  * Тестовое приложение
  */
 
-public class Main {
+public class App {
 
     public static void main(final String[] args) {
         run(args);
