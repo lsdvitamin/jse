@@ -1,23 +1,21 @@
 Консольное приложение task-manager-1.0.0.jar с возможностью 
 параметризированного запуска. Реализация на Apache Maven.
 
-**Системные требования:**
+# Системные требования: #
+  - JDK 	1,7 или выше.
 
-    JDK 	1,7 или выше.
-
-**Разработчик:**
-
-    Имя: Смольянинов С.
-    Email: smolianinov@gmail.com
+# Разработчик: #
+  - Имя: Смольянинов С.
+  - Email: smolianinov@gmail.com
     
-**Команды сборки приложения:**
-
+# Команды сборки приложения: # 
+ ```
     mvn compile
     mvn package
     mvn install
+ ```
 
-**Команды запуска приложений**
-
+# Команды запуска приложений #
     java -jar task-manager-1.0.0.jar version
     java -jar task-manager-1.0.0.jar help
     java -jar task-manager-1.0.0.jar about
