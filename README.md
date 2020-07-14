@@ -10,8 +10,7 @@
 Разработчик:
 
    `Имя: Смольянинов С.` 
-
-    Email: smolianinov@gmail.com
+    > Email: smolianinov@gmail.com
     
 Команды сборки приложения:
     mvn compile
