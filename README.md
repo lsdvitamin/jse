@@ -17,6 +17,6 @@
 
 Команды запуска приложений
 
-    ---java -jar task-manager-1.0.0.jar version---
+    '''java -jar task-manager-1.0.0.jar version'''
     java -jar task-manager-1.0.0.jar help
     java -jar task-manager-1.0.0.jar about
