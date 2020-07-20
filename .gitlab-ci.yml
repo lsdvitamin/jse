@@ -1,5 +1,5 @@
 services:
- - docker:dind
+  - docker:dind
 
 variables:
   DOCKER_HOST: tcp://docker:2375
@@ -9,7 +9,7 @@ build:
   image: maven:3-jdk-8
   stage: build
   script:
-   - mvn clean install
+    - mvn clean install
   artifacts:
   paths:
-   - target/*.jar
+    - target/*.jar
