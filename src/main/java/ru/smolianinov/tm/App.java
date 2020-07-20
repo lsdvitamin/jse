@@ -4,10 +4,11 @@ import java.util.Scanner;
 
 import static ru.smolianinov.tm.constant.TerminalConst.*;
 
-/*
- * Тестовое приложение
+/**
+ * Главный класс приложения
+ *
+ * @author Сергей Смольянинов
  */
-
 public class App {
 
     public static void main(final String[] args) {
