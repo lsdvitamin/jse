@@ -1,3 +1,5 @@
+[Копия проекта на github](git@github.com:lsdvitamin/jse.git)
+
 # Task-manager #
 Консольное приложение с возможностью ввода команд. Версия 1.0.1
 
